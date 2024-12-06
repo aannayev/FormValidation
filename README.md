@@ -10,12 +10,11 @@ To get started with the project, clone the repository and install the required d
 ```bash
    git clone https://github.com/yourusername/my-cypress-project.git
    cd my-cypress-project
- ```
-2. Install dependencies using npm :
-
-   ```bash
+```
+1. Install dependencies using npm :
+```bash
    npm install
-   ```
+```
 
 ## Usage
 ### Running Cypress Locally
@@ -45,18 +44,14 @@ In this project, the following custom Cypress commands are added in the `cypress
 
 - **`Getelement`**: A custom command to get an element by its `data-cy` attribute.
   Example usage:
-  ```javascript
+```js
   cy.Getelement('username-input');
+```
 
-  ```
+
 
   - **`getElementAndType`**: A custom command to get an element and type text into it.
   Example usage:
-
-  ```javascript
-
+```js
   cy.getElementAndType('username-input', 'ValidUser123');
-
-  ```
-
-  
+```
